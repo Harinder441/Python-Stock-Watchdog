@@ -1,7 +1,7 @@
 import requests as req
 
-STOCK = "TSLA"
-API_KEY = "RIYRJA0PLADHJ80D"
+STOCK = "TSLA" #STOCK SYMBOL TO TRACK
+API_KEY = YOUR_API_KEY
 
 
 def get_stock_prc(symbol: str):
