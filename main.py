@@ -13,4 +13,4 @@ status = "UP" if price_change > 0 else "DOWN"
 for news in newss:
     massage = f"{COMPANY_NAME.upper()} : {status} {abs(price_change)} \n{news}"
     print(massage)
-    send_massage(massage=massage, to_num="+918901116612")
+    send_massage(massage=massage, to_num=RECIVERS_MOBILE_NUMBER)
