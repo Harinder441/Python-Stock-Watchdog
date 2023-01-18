@@ -4,7 +4,7 @@ import datetime as dt
 today = dt.date.today()
 two_days_before = str(today - dt.timedelta(days=2))
 
-API_KEY = "4aff8babe58a4e4fb2babdce5a4c3017"
+API_KEY = YOUR_api_key
 
 
 def get_news_data( keyword="TESLA") -> list:
